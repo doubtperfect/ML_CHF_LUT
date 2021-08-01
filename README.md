@@ -7,3 +7,4 @@
   D = [0.002, 0.005, 0.008, 0.011, 0.014, 0.017, 0.02, 0.023, 0.026, 0.029, 0.032, 0.035, 0.038, 0.041] \
   X = [-0.5,-0.4,-0.3,-0.2,-0.15,-0.1,-0.05,0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.6,0.7,0.8,0.9,1] \
 4. When predicting the base using Croeneveld CHF LUT, hydraulic diamter should be used for tube and heated diameter should be used for annulus;
+5. Tube and annulus LUT files are grouped according to the hydraulic diameter. Within each file, the matrices are grouped according to pressure.
